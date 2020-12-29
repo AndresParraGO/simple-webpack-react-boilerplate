@@ -1,0 +1,30 @@
+{
+  "name": "react-webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production --env NODE_ENV=production",
+    "dev": "webpack serve --env NODE_ENV=development --mode development"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "css-minimizer-webpack-plugin": "^1.1.5",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^1.3.3",
+    "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "^5.0.3",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.0",
+    "webpack-dev-server": "^3.11.1"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
